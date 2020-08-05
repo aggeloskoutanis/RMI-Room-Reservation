@@ -36,7 +36,6 @@ public class HRClient extends UnicastRemoteObject implements RoomAvailabilityLis
             if(args.length==2 && args[0].equals("list"))
             {
                 host = args[1];
-                type = args[2];
                 Vector<Integer> list = c.list("list");
                 System.out.println("The available rooms are:\n"+ list.get(0) +" rooms of type A costing 50 euro per night. \n"+ list.get(1) +" rooms of type B costing 70 euro per night. \n"+ list.get(2) +" rooms of type C costing 80 euro per night. \n"+ list.get(3) +" rooms of type D costing 120 euro per night. \n"+ list.get(4) +" rooms of type E costing 150 euro per night. \n");
             }
