@@ -23,7 +23,7 @@ In order to run RMI registry on Windows, type the following:
 ```bash
 start rmiregistry
 ```
-Compile or .java files
+Compile all .java files
 ```bash
 javac *.java
 ```
